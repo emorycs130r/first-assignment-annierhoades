@@ -16,19 +16,24 @@ DO NOT EDIT THE FUNCTION NAMES.
 
 def append_two_strings(string_1, string_2):
 
-    pass
+    string_append = str(string_1) + str(string_2)
+    return string_append
 
 
 def append_character(string_1, char_1):
 
-    pass
+    character_append = str(string_1) + str(char_1)
+    return character_append
 
 
 def append_num_to_string(string_1, num_1):
 
-    pass
+    number_append = str(string_1) + str(num_1)
+    return number_append
 
 
 if __name__ == "__main__":
     
-    pass
+    print(append_two_strings("hello", " Vish"))
+    print(append_character("Straight", "A"))
+    print(append_num_to_string("you're a ", 0))
